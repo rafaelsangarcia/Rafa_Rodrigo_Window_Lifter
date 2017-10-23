@@ -1,0 +1,36 @@
+16:28:34 **** Incremental Build of configuration Debug for project WindowLifter ****
+make -j4 all 
+Building file: ../src/clocks.c
+Building file: ../src/main.c
+Executing target #4 ../src/clocks.c
+Executing target #5 ../src/main.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@src/clocks.args" -MMD -MP -MF"src/clocks.d" -MT"src/clocks.o" -c -o "src/clocks.o" "../src/clocks.c"
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@src/main.args" -MMD -MP -MF"src/main.d" -MT"src/main.o" -c -o "src/main.o" "../src/main.c"
+Finished building: ../src/clocks.c
+Finished building: ../src/main.c
+ 
+ 
+Building target: WindowLifter.elf
+Executing target #6 WindowLifter.elf
+Invoking: Standard S32DS C Linker
+arm-none-eabi-gcc -o "WindowLifter.elf" "@WindowLifter.args"   
+Finished building target: WindowLifter.elf
+ 
+Executing target #7 WindowLifter.siz
+Invoking: Standard S32DS Print Size
+arm-none-eabi-size --format=berkeley  WindowLifter.elf 
+   text	   data	    bss	    dec	    hex	filename
+   3668	      4	   3080	   6752	   1a60	WindowLifter.elf
+Finished building: WindowLifter.siz
+ 
+16:29:10 **** Incremental Build of configuration Debug for project WindowLifter ****
+make -j4 all 
+Executing target #7 WindowLifter.siz
+Invoking: Standard S32DS Print Size
+arm-none-eabi-size --format=berkeley  WindowLifter.elf 
+   text	   data	    bss	    dec	    hex	filename
+   3668	      4	   3080	   6752	   1a60	WindowLifter.elf
+Finished building: WindowLifter.siz
+ 

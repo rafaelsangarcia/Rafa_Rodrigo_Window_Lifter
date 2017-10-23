@@ -1,0 +1,39 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+-include ../makefile.local
+
+# Add inputs and outputs from these tool invocations to the build variables 
+C_SRCS_QUOTED += \
+"../include/interrupt_manager.c" \
+
+C_SRCS += \
+../include/interrupt_manager.c \
+
+OBJS_OS_FORMAT += \
+./include/interrupt_manager.o \
+
+C_DEPS_QUOTED += \
+"./include/interrupt_manager.d" \
+
+OBJS += \
+./include/interrupt_manager.o \
+
+OBJS_QUOTED += \
+"./include/interrupt_manager.o" \
+
+C_DEPS += \
+./include/interrupt_manager.d \
+
+
+# Each subdirectory must supply rules for building sources it contributes
+include/interrupt_manager.o: ../include/interrupt_manager.c
+	@echo 'Building file: $<'
+	@echo 'Executing target #4 $<'
+	@echo 'Invoking: Standard S32DS C Compiler'
+	arm-none-eabi-gcc "@include/interrupt_manager.args" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@)" -c -o "include/interrupt_manager.o" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+

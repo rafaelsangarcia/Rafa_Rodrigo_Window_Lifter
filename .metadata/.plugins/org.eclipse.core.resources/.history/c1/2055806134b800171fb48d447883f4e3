@@ -1,4 +1,6 @@
-//TESTED
+#include "Cpu.h"
+#include "pin_mux.h"
+#include "clockMan1.h"
 #include "S32K144.h"
 #include "clocks.h"
 

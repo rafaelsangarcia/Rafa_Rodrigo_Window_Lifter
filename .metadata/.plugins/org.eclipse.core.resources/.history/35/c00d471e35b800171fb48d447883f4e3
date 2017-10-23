@@ -1,4 +1,4 @@
-//TESTED
+
 #include "S32K144.h"
 #include "clocks.h"
 

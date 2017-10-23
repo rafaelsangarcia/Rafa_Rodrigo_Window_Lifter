@@ -1,0 +1,12 @@
+16:29:10 **** Incremental Build of configuration Debug for project WindowLifter ****
+make -j4 all 
+Executing target #7 WindowLifter.siz
+Invoking: Standard S32DS Print Size
+arm-none-eabi-size --format=berkeley  WindowLifter.elf 
+   text	   data	    bss	    dec	    hex	filename
+   3668	      4	   3080	   6752	   1a60	WindowLifter.elf
+Finished building: WindowLifter.siz
+ 
+
+16:29:13 Build Finished (took 2s.770ms)
+
